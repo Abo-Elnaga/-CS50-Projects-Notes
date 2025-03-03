@@ -1,0 +1,30 @@
+project(1)
+#include <stdio.h>
+int main(void){
+    printf("Hello,world\n");
+    printf("Hello,world\n");
+    printf("Hello,world\n");
+}
+
+project(2)
+#include <stdio.h>
+#include <cs50.h>
+int main(void){
+    // printf("Hello,world\n");
+    // printf("Hello,world\n");
+    // printf("Hello,world\n");
+    string answer =get_string("Whats your name?");
+    printf("Hello %s\n",answer);
+}
+
+project(3)
+#include<stdio.h>
+#include<cs50.h>
+int main(void){
+    int num1 = get_int("num1:");
+    int num2 = get_int("num2:");
+    int result= num1 + num2;
+    printf("%i", result);
+}
+
+
